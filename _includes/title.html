@@ -1,5 +1,0 @@
-{% if page.is_post %}
-{% if page.title %}{{ page.title | escape }}- {{ site.title | escape}} Blog{% endif %}
-{% else %}
-{{ site.title | escape}}{% if page.title %} | {{ page.title | escape }}{% endif %}
-{% endif %}

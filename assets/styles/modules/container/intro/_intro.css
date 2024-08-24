@@ -1,8 +1,0 @@
-.intro {
-    text-align: center;
-    padding: 40px 30px 20px;
-}
-
-.intro > * + * {
-    margin-top: 20px;
-}
