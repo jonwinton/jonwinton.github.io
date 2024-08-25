@@ -24,26 +24,6 @@ permalinks:
     posts: /posts/:year/:month/:slug/
 
 
-# languages:
-#   en:
-#     languageName: "English"
-#     weight: 1
-#     taxonomies:
-#       category: categories
-#       tag: tags
-#       series: series
-#     menu:
-#       main:
-#         - name: Archive
-#           url: archives
-#           weight: 5
-#         - name: Search
-#           url: search/
-#           weight: 10
-#         - name: Tags
-#           url: tags/
-#           weight: 10
-
 outputs:
   home:
     - HTML
@@ -58,7 +38,7 @@ params:
   homeInfoParams:
     Title: Hello there 👋
     Content: >
-      I'm a software engineer focused on Kubernetes administration and cloud infrastructure.
+      I'm a software engineer focused on Kubernetes administration, cloud infrastructure, and automation.
 
   socialIcons: # optional
   - name: github
@@ -88,4 +68,3 @@ params:
     appendFilePath: true # to append file path to Edit link
 
   comments: true
-
