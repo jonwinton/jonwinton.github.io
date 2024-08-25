@@ -1,4 +1,5 @@
 .DS_Store
+.hermit
 
 # hugo mod vendor
 _vendor/
