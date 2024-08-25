@@ -38,8 +38,7 @@ params:
   homeInfoParams:
     Title: Hello there 👋
     Content: >
-      I'm a software engineer focused on Kubernetes administration, cloud infrastructure, and automation.
-
+      I'm a software engineer with a passion for observability, workflow automation, Kubernetes, cloud infrastructure. Currently building things at [Cash App](https://cash.app/) 💸
   socialIcons: # optional
   - name: github
     url: https://github.com/jonwinton

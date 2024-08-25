@@ -1,12 +1,18 @@
 ---
-title: 'Configuring GCP Workload Identity Federation For GitHub Actions'
+title: Configuring GCP Workload Identity Federation For GitHub Actions
+description: &desc Terraform configuration for easy keyless authentication to Google Cloud
+summary: *desc
 date: "2024-08-25T09:32:51-07:00"
-categories:
-  - Cloud
+author: Jon Winton
+keywords:
+  - gitHub actions
+  - google cloud
+  - workload identity
+  - terraform
 tags:
-  - GCP
-  - GitHub Actions
-  - Terraform
+  - gcp
+  - gitHub actions
+  - terraform
 ---
 
 I recently needed to push container images and Helm charts to [Artifact Registry](https://cloud.google.com/artifact-registry) and wanted to use GitHub Actions. Looking around I found [this action](https://github.com/marketplace/actions/authenticate-to-google-cloud) and this blog post describing [how to use service accounts and keyless authentication using workload identity federation](https://cloud.google.com/blog/products/identity-security/enabling-keyless-authentication-from-github-actions). Luckily, this blog post described all the individual steps for setting this up using the `gcloud` CLI so it was straightforward adapting it to my Terraform workflow.
