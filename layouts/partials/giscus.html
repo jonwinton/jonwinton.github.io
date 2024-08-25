@@ -1,0 +1,20 @@
+{{- if (eq (.Site.Params.disableComments | default false) false) -}}
+    {{- if (eq (.Params.disableComments | default false) false) -}}
+    <script src="https://giscus.app/client.js"
+        data-repo="jonwinton/jonwinton.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk1NTM1MzcwMA=="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOA0yhZM4Ch5nR"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="transparent_dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+    </script>
+    {{- end -}}
+{{- end -}}
