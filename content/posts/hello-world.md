@@ -9,5 +9,6 @@ First post using a new set of tools:
 - [Hugo](https://gohugo.io/): static site generator using the [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/) theme
 - [Giscus](https://giscus.app/): a cool comment functionality using GitHub discussions as a backend
 - [GitHub Actions](https://docs.github.com/en/actions): for deploying to GitHub pages
+- [Pre-Commit](https://pre-commit.com/): formatting, automating spell check, etc.
 
 The goal will be to make short posts as a simple archive of learnings, good tools, etc.
